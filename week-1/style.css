@@ -19,7 +19,7 @@ header {
 }
 
 header h1 {
-    color:  #a78bfa;;
+    color:  #a78bfa;
 }
 
 nav {
@@ -137,6 +137,19 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
     }
+    header {
+    padding: 20px 5%;
+    }
+
+    .hero {
+        margin: 10px;
+        padding: 40px 16px;
+        min-height: 60vh;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
 }
 
 .service-card {
@@ -145,4 +158,20 @@ footer {
 
 .service-card:hover {
     transform: translateY(-8px);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero {
+    animation: fadeInUp 0.8s ease-out;
 }
