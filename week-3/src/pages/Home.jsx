@@ -89,9 +89,9 @@ export default function Home() {
         <p>
           Let's explore how technology can help bring it to life.
         </p>
-        <a className="hero-button" href="/contact">
+        <Link to="/contact" className="hero-button">
           Let's Talk →
-        </a>
+        </Link>
       </section>
     </>
   );
