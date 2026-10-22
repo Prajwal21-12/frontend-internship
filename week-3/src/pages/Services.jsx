@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const services = [
   {
     number: "01",
@@ -50,9 +51,9 @@ export default function Services() {
       <div className="services-cta">
         <h2>Have a project in mind?</h2>
         <p>Visit our contact page to tell us about your idea.</p>
-        <a className="hero-button" href="/contact">
+        <Link to="/contact" className="hero-button">
           Contact TechNova →
-        </a>
+        </Link>
       </div>
     </section>
   );

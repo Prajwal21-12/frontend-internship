@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Home() {
   const services = [
     {
@@ -37,13 +38,13 @@ export default function Home() {
         </p>
 
         <div className="hero-actions">
-          <a className="hero-button" href="/services">
+          <Link to="/services" className="hero-button">
             Explore Services →
-          </a>
+          </Link>
 
-          <a className="secondary-button" href="/contact">
+          <Link to="/contact" className="secondary-button">
             Contact Us
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -75,9 +76,9 @@ export default function Home() {
               </span>
               <h3>{service.title}</h3>
               <p>{service.description}</p>
-              <a href="/services" className="card-link">
+              <Link to="/services" className="card-link">
                 Learn more →
-              </a>
+              </Link>
             </article>
           ))}
         </div>
