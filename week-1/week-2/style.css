@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e2e8f0;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+    color: #1e293b;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+li {
+    margin-top: 12px;
+    padding: 10px;
+    background: #f1f5f9;
+    overflow-wrap: anywhere;
+}

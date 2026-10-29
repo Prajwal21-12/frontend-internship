@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e2e8f0;
+    padding: 30px 16px;
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+#activity {
+    margin-top: 24px;
+    line-height: 1.6;
+}
